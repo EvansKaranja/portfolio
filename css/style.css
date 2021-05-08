@@ -196,10 +196,35 @@ a:hover {
   padding: 1.5rem 0;
 }
 
+.col-sm-4 .socials {
+  padding: 0rem 0;
+}
+
 .socials ul li {
   display: inline-block;
 }
+/* ---------- */
+.col-sm-4 .socials .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 2px red;
+  transition: all 500ms ease;
+  color: red;
+  
+}
 
+.col-sm-4 .socials .ico-circle:hover {
+  background-color: red;
+  color: #fff;
+  box-shadow: 0 0 0 3px #f8cdcd;
+  transition: all 500ms ease;
+}
+
+/* -------- */
 .socials .ico-circle {
   height: 40px;
   width: 40px;
