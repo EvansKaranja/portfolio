@@ -155,18 +155,19 @@
               <h3 class="title-a">
                 Projects
               </h3>
-              <!-- <div id="myBtnContainer">
-                <button class="btn active" onclick="filterSelection('all')"> All</button>
-                <button class="btn" onclick="filterSelection('Web')"> Web Apps</button>
-                <button class="btn" onclick="filterSelection('notebooks')"> Notebooks</button>
-                <button class="btn" onclick="filterSelection('maps')"> Map Gallery</button>
-              </div> -->
+              <div id="myBtnContainer">
+                <button class="btn button button-a button-small button-rouded active" onclick="filterSelection('web')"> Web Apps</button>
+                <button class="btn button button-a button-small button-rouded" onclick="filterSelection('notebook')"> Notebooks</button>
+                <button class="btn button button-a button-small button-rouded" onclick="filterSelection('map')"> Map Gallery</button>
+                <button class="btn button button-a button-small button-rouded remove" onclick="filterSelection('all')">Show All</button>
+              </div>
+         
             </div>
           </div>
         </div>
-      <div class="row">
 
-        <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-4 column web">
           <div class="work-box">
               <div class="work-img">
                 <img src="img/parkfiti.PNG" alt="" class="img-fluid">
@@ -195,7 +196,7 @@
           </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-4 column web">
           <div class="work-box">
             <!-- <a href="img/learninglog.PNG" data-lightbox="gallery-mf"> -->
               <div class="work-img">
@@ -225,7 +226,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 column web">
           <div class="work-box">
             <!-- <a href="img/learninglog.PNG" data-lightbox="gallery-mf"> -->
               <div class="work-img">
@@ -250,12 +251,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> 
 
-        
-        
-
-        <div class="col-md-4">
+        <div class="col-md-4 column web">
           <div class="work-box">
               <div class="work-img">
                 <img src="img/iss.jfif" alt="" class="img-fluid">
@@ -280,6 +278,63 @@
               </div>
           </div>
         </div>
+        <!-- Notebooks -->
+        <div class="col-md-4 column notebook">
+          <div class="work-box">
+            <!-- <a href="img/learninglog.PNG" data-lightbox="gallery-mf"> -->
+              <div class="work-img">
+                <img src="img/coming_soon.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">G.E.E Night Light Explorer</h2>
+                    <div class="w-more"> 
+                     
+                     <p style="margin-bottom: 0; "> <a href="https://evanskndungu.users.earthengine.app/view/night-light-explorer" target="_blank" >
+                      <span class="w-ctegory">View App</span></a> | <span style="color: red;">Mobile view not supported!!!</span> </p>
+                        
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="https://evanskndungu.users.earthengine.app/view/night-light-explorer" target="_blank" >
+                        <span class="w-ctegory"><span class="ion-ios-plus-outline"></span></span></a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Maps -->
+        <div class="col-md-4 column map">
+          <div class="work-box">
+            <!-- <a href="img/learninglog.PNG" data-lightbox="gallery-mf"> -->
+              <div class="work-img">
+                <img src="img/coming_soon.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Learning Log</h2>
+                    <div class="w-more"> 
+                      <a href="https://learninglogapp.herokuapp.com/" target="_blank" >
+                        <span class="w-ctegory">View App</span></a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://learninglogapp.herokuapp.com/" target="_blank" >
+                        <span class="w-ctegory"><span class="ion-ios-plus-outline"></span></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div> 
       </div>
     </div>
   </div>
@@ -287,7 +342,7 @@
   <!--/ Section Portfolio End /-->
 
   <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/staircase.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
@@ -380,13 +435,11 @@
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/counterup/jquery.waypoints.min.js"></script>
   <script src="lib/counterup/jquery.counterup.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <!-- Contact Form JavaScript File -->

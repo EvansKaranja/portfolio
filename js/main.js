@@ -116,7 +116,7 @@
 
 })(jQuery);
 
-filterSelection("all") // Execute the function and show all columns
+filterSelection("web") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
